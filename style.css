@@ -1,14 +1,18 @@
 html,
+.gradient,
 body {
+    background-color: rgb(233, 91, 238);
     height:100%;
     font-size: 1rem;
+    font-style: italic; color:azure
+    
 }
 
-gradient{
+.gradient{
     background: rbg(0, 97, 242);
     background: linear-gradient(
         135deg,
-        rgb(230, 131, 216) 0%,
-        rgb(230, 86, 210) 100%
+        rgb(228, 153, 218) 0%,
+        rgb(45, 115, 2272) 100%
     );
 }
